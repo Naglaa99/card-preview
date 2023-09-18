@@ -92,11 +92,15 @@ button img {
 }
 
 @media (max-width: 768px) {
+    .container .card .text {
+       
+        padding: 15px;
+      }
   .card {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     width: 335px;
-    height: 100vh;
+    height: 95vh;
   }
 
   .card .image {
@@ -114,9 +118,9 @@ button img {
   }
 
   .container .card .text h1 {
-    margin: 10px 0;
+    margin: 8px 0;
   }
   .container .card .text p {
-    margin-bottom: 10px;
+    margin-bottom: 8px;
   }
 }
